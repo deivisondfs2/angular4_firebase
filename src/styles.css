@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~https://fonts.googleapis.com/css?family=Montserrat";
+
+@import '~material-design-icons/iconfont/material-icons.css';
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  background: white;
+}
+
+.body-margin{
+  margin: 50px;
+}
+
+.center-align{
+  text-align: center;
+}
+
+.img-circle {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+.post-content-title {
+    background: white;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.post-content {
+    font-size: 20px;
+    line-height: 36px;
+    color: #3b3b3b;
+    background: white;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    padding: 30px 0;
+}
